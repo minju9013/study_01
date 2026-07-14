@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./tokens/colors.css";
+@import "./tokens/spacing.css";
+
+/* 브라우저 기본 검색 input(type="search") 네이티브 clear 버튼 제거
+   — 커스텀 close 아이콘과 중복 노출되는 것을 방지 */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
