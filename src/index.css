@@ -1,6 +1,5 @@
 @import "tailwindcss";
-@import "./tokens/colors.css";
-@import "./tokens/spacing.css";
+@import "./tokens/_generated.css";
 
 /* 브라우저 기본 검색 input(type="search") 네이티브 clear 버튼 제거
    — 커스텀 close 아이콘과 중복 노출되는 것을 방지 */
